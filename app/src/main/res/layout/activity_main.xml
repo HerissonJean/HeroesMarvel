@@ -19,17 +19,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/api"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <TextView
-                android:id="@+id/api1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ao"
-                />
-
             <LinearLayout
                 android:id="@+id/linear_main_topo"
                 android:layout_width="match_parent"
@@ -91,8 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dp_24"
                 android:layout_marginTop="@dimen/dp_32"
-                android:layout_marginBottom="@dimen/dp_24"
                 android:layout_marginRight="@dimen/dp_24"
+                android:layout_marginBottom="@dimen/dp_24"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -143,9 +132,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:visibility="gone"
                     android:layout_margin="@dimen/dp_8"
-                    android:background="@drawable/ic_baseline_clear_24" />
+                    android:background="@drawable/ic_baseline_clear_24"
+                    android:visibility="gone" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_main_hide"
@@ -334,6 +323,9 @@
                 android:layout_marginStart="@dimen/dp_16"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp" />
+
         </LinearLayout>
     </ScrollView>
+
+
 </RelativeLayout>

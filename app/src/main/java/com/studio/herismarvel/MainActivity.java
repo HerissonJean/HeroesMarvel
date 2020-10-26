@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Personagem> personagensApi = new ArrayList<>();
     private ImageView bt_hero, bt_villain, bt_antihero, bt_alienigena, bt_humano, bt_clearRecycler;
     private Retrofit retrofit;
-    public Personagem auxiliar = new Personagem();
-    public ArrayList<PersonagemPojo> listPojo = new ArrayList<>();
     public ImageView imageView;
     public TextView textView;
 
@@ -148,27 +146,30 @@ public class MainActivity extends AppCompatActivity {
                     JsonObject code = json.get("data").getAsJsonObject();
                     JsonArray arrayJson = code.get("results").getAsJsonArray();
 
-                    for (int i = 0; i < arrayJson.size(); i++) {
+                    for (int i = 0; i < 20; i++) {
 
                         JsonObject jsonObject = (JsonObject) arrayJson.get(i);
 
                         JsonObject thumbnail = (JsonObject) jsonObject.get("thumbnail");
                         String path = String.valueOf(thumbnail.get("path").getAsString());
                         String extension = String.valueOf(thumbnail.get("extension").getAsString());
-
                         String name = String.valueOf(jsonObject.get("name"));
-                        path = path + "." + extension;
-                        personagensApi.add(new Personagem(name, path, extension));
+                        // Log.d("harry "+i, "onResponse: "+path+"."+extension +" - " + name );
+
+                        Personagem personagemAux = new Personagem();
+                        personagemAux.setName(name);
+                        String pathAux = path + "." + extension;
+                        personagemAux.setPath(pathAux);
+                        personagensApi.add(personagemAux);
 
                     }
 
-                    imageView = findViewById(R.id.api);
-                    textView = findViewById(R.id.api1);
-                    textView.setText(personagensApi.get(7).getName());
-                    Log.d("teste: ", "" + personagensApi.get(7).getName());
-                    String url = personagensApi.get(12).getPath();// + "." + personagensApi.get(0).getExtension();
-                    Glide.with(MainActivity.this).load(url).into(imageView);
-                    Log.d("onResponse: ", " l " + url);
+                    //  imageView = findViewById(R.id.apii);
+                    //       textView.setText(personagensApi.get(7).getName());
+                    //       Log.d("teste: ", "" + personagensApi.get(7).getName());
+                    //      String url = personagensApi.get(10).getPath() + "." + personagensApi.get(0).getExtension();
+                    ////        Glide.with(MainActivity.this).load(url).into(imageView);
+                    //      Log.d("onResponse: ", " l " + url);
                 }
             }
 
@@ -238,13 +239,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void criaRecyclerHeros() {
+
         LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
         recyclerHeros.setLayoutManager(layoutManager);
         recyclerHeros.setItemAnimator(new DefaultItemAnimator());
-        AdapterPersonagens adapterHero = new AdapterPersonagens(personagensLista);
-        recyclerHeros.setAdapter(adapterHero);
+        AdapterApi adapterApi = new AdapterApi(MainActivity.this, personagensApi);
+        recyclerHeros.setAdapter(adapterApi);
 
-        recyclerHeros.addOnItemTouchListener(
+     /*   recyclerHeros.addOnItemTouchListener(
                 new RecyclerItemClickListener(
                         getApplicationContext(),
                         recyclerHeros,
@@ -265,7 +267,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                 )
-        );
+        );*/
     }
 
     private void criaRecyclerVilao() {
