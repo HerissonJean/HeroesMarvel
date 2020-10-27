@@ -8,13 +8,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -30,7 +28,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerHeros, recyclerVilao, recyclerAnti, recyclerAlienigena, recyclerHumano, recyclerHide;
+    private RecyclerView recyclerHeros, recyclerVilao, recyclerAnti, recyclerAlienigena, recyclerHumano, recyclerHide, recyclerOutros;
     ArrayList<Personagem> personagensLista = new ArrayList<>();
     ArrayList<Personagem> personagensLista2 = new ArrayList<>();
     ArrayList<Personagem> personagensLista3 = new ArrayList<>();
@@ -61,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         bt_antihero = findViewById(R.id.image_main_icAntiHero);
         bt_alienigena = findViewById(R.id.ic_main_icAlienigena);
         bt_humano = findViewById(R.id.image_main_icHumano);
+        bt_clearRecycler = findViewById(R.id.image_main_clear);
         bt_clearRecycler = findViewById(R.id.image_main_clear);
 
         bt_clearRecycler.setOnClickListener(new View.OnClickListener() {
@@ -111,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerAlienigena = findViewById(R.id.recycler_main_alienigena);
         recyclerHumano = findViewById(R.id.recycler_main_Humano);
         recyclerHide = findViewById(R.id.recycler_main_hide);
+        recyclerOutros = findViewById(R.id.recycler_main_Api);
 
         Personagem aux = new Personagem();
         personagensLista = aux.classificacaoRecycler(1);
@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         criaRecyclerAnti();
         criaRecyclerAlienigena();
         criaRecyclerHumano();
+        criaRecyclerApi();
 
     }
 
@@ -146,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
                     JsonObject code = json.get("data").getAsJsonObject();
                     JsonArray arrayJson = code.get("results").getAsJsonArray();
 
-                    for (int i = 0; i < 20; i++) {
+                    for (int i = 0; i < arrayJson.size(); i++) {
 
                         JsonObject jsonObject = (JsonObject) arrayJson.get(i);
 
@@ -183,70 +184,25 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-    private void categoriaEscolhida(int tipo) {
-
-        recyclerHide.setVisibility(View.VISIBLE);
-        bt_clearRecycler.setVisibility(View.VISIBLE);
+    private void criaRecyclerApi() {
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
-        recyclerHide.setLayoutManager(layoutManager);
-        recyclerHide.setItemAnimator(new DefaultItemAnimator());
-        switch (tipo) {
-            case 1:
-                personagensHidden = personagensLista;
-                break;
-            case 2:
-                personagensHidden = personagensLista2;
-                break;
-            case 3:
-                personagensHidden = personagensLista3;
-                break;
-            case 4:
-                personagensHidden = personagensLista4;
-                break;
-            case 5:
-                personagensHidden = personagensLista5;
-                break;
-        }
-        AdapterPersonagens adapterHero = new AdapterPersonagens(personagensHidden);
-        recyclerHide.setAdapter(adapterHero);
-
-        recyclerHide.addOnItemTouchListener(
-                new RecyclerItemClickListener(
-                        getApplicationContext(),
-                        recyclerHide,
-                        new RecyclerItemClickListener.OnItemClickListener() {
-                            @Override
-                            public void onItemClick(View view, int position) {
-                                Intent i = new Intent(MainActivity.this, Apresentacao.class);
-                                i.putExtra("teste", (Serializable) personagensHidden.get(position));
-                                startActivity(i);
-                            }
-
-                            @Override
-                            public void onLongItemClick(View view, int position) {
-
-                            }
-
-                            @Override
-                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                            }
-                        }));
+        recyclerOutros.setLayoutManager(layoutManager);
+        recyclerOutros.setItemAnimator(new DefaultItemAnimator());
+        AdapterApi adapterApi = new AdapterApi(MainActivity.this, personagensApi);
+        recyclerOutros.setAdapter(adapterApi);
 
     }
-
 
     private void criaRecyclerHeros() {
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
         recyclerHeros.setLayoutManager(layoutManager);
         recyclerHeros.setItemAnimator(new DefaultItemAnimator());
-        AdapterApi adapterApi = new AdapterApi(MainActivity.this, personagensApi);
-        recyclerHeros.setAdapter(adapterApi);
+        AdapterPersonagens adapter = new AdapterPersonagens(personagensLista);
+        recyclerHeros.setAdapter(adapter);
 
-     /*   recyclerHeros.addOnItemTouchListener(
+        recyclerHeros.addOnItemTouchListener(
                 new RecyclerItemClickListener(
                         getApplicationContext(),
                         recyclerHeros,
@@ -267,7 +223,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                 )
-        );*/
+        );
     }
 
     private void criaRecyclerVilao() {
@@ -407,12 +363,63 @@ public class MainActivity extends AppCompatActivity {
 
                             }
                         }
-
                 )
         );
-
     }
 
+
+    private void categoriaEscolhida(int tipo) {
+
+        recyclerHide.setVisibility(View.VISIBLE);
+        bt_clearRecycler.setVisibility(View.VISIBLE);
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
+        recyclerHide.setLayoutManager(layoutManager);
+        recyclerHide.setItemAnimator(new DefaultItemAnimator());
+        switch (tipo) {
+            case 1:
+                personagensHidden = personagensLista;
+                break;
+            case 2:
+                personagensHidden = personagensLista2;
+                break;
+            case 3:
+                personagensHidden = personagensLista3;
+                break;
+            case 4:
+                personagensHidden = personagensLista4;
+                break;
+            case 5:
+                personagensHidden = personagensLista5;
+                break;
+        }
+        AdapterPersonagens adapterHero = new AdapterPersonagens(personagensHidden);
+        recyclerHide.setAdapter(adapterHero);
+
+        recyclerHide.addOnItemTouchListener(
+                new RecyclerItemClickListener(
+                        getApplicationContext(),
+                        recyclerHide,
+                        new RecyclerItemClickListener.OnItemClickListener() {
+                            @Override
+                            public void onItemClick(View view, int position) {
+                                Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                startActivity(i);
+                            }
+
+                            @Override
+                            public void onLongItemClick(View view, int position) {
+
+                            }
+
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                            }
+                        }));
+
+    }
 }
 
 

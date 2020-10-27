@@ -324,6 +324,42 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp" />
 
+           <RelativeLayout
+                android:id="@+id/relative_main_Api"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_24"
+                android:layout_marginTop="@dimen/dp_48"
+                android:layout_marginRight="@dimen/dp_24">
+
+                <TextView
+                    android:id="@+id/text_main_Api"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Outros"
+                    android:textColor="@color/logo"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/ver_tudo"
+                    android:textColor="@color/texto_cinza"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_main_Api"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_16"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
         </LinearLayout>
     </ScrollView>
 

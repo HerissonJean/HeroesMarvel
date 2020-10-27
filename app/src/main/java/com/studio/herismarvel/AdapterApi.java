@@ -29,8 +29,7 @@ public class AdapterApi extends RecyclerView.Adapter<AdapterApi.MyViewHolder> {
         this.personagensApi = personagensApi;
     }
 
-
-
+    
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
