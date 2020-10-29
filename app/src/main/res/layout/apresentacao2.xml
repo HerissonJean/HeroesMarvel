@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:elevation="@dimen/dp_8">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/dp_8">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:background="@drawable/background_gradient"
+                android:elevation="@dimen/dp_32">
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp">
+
+                <ImageView
+                    android:id="@+id/image_apresentacao_principal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="@dimen/dp_8"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/char_spider_man" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_8"
+                android:layout_marginTop="500dp"
+                android:layout_marginRight="@dimen/dp_8"
+                android:elevation="@dimen/dp_48"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_apresentacao_nome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nome"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/text_apresentacao_personagem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nome"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dp_40"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_24"
+                    android:text="@string/txt"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_32"
+                    android:text="Habilidades"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_48"
+                    android:src="@drawable/ic_abilities" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_32"
+                    android:text="@string/filmes"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_48"
+                    android:src="@drawable/ic_abilities" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -22,16 +22,16 @@ public class Apresentacao extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_apresentacao);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        setContentView(R.layout.apresentacao2);
+   //     ActionBar actionBar = getSupportActionBar();
+    //    actionBar.hide();
 
-        findViewById(R.id.ic_apresentacao_retur).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+//        findViewById(R.id.ic_apresentacao_retur).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                finish();
+//            }
+//        });
 
         nome = findViewById(R.id.text_apresentacao_nome);
         personagemNome = findViewById(R.id.text_apresentacao_personagem);

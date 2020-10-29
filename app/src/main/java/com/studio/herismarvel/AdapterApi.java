@@ -34,7 +34,7 @@ public class AdapterApi extends RecyclerView.Adapter<AdapterApi.MyViewHolder> {
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext())
+        View view = LayoutInflater.from(context)
                 .inflate(R.layout.cardview_model_api, parent, false);
 
         return new MyViewHolder(view);

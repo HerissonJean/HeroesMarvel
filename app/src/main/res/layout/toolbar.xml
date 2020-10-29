@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/dp_16"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ic_menu"
+                android:src="@drawable/ic_menu" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="106dp"
+                android:layout_marginEnd="106dp"
+                app:tint="@color/logo"
+                android:layout_toStartOf="@+id/ic_pesquisa"
+                android:layout_toEndOf="@+id/ic_menu"
+                android:src="@drawable/ic_logo" />
+            <ImageView
+                android:id="@+id/ic_pesquisa"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pesquisa" />
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

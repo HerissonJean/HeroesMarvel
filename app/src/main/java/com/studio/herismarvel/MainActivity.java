@@ -41,16 +41,15 @@ public class MainActivity extends AppCompatActivity {
     public ImageView imageView;
     public TextView textView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         //configuração ActionBar
-        ActionBar bar = getSupportActionBar();
+     //   ActionBar bar = getSupportActionBar();
 
-        bar.hide();
+       // bar.hide();
 
         recuperaDadosApi();
 
@@ -119,12 +118,12 @@ public class MainActivity extends AppCompatActivity {
         personagensLista4 = aux.classificacaoRecycler(4);
         personagensLista5 = aux.classificacaoRecycler(5);
 
+        criaRecyclerApi();
         criaRecyclerHeros();
         criaRecyclerVilao();
         criaRecyclerAnti();
         criaRecyclerAlienigena();
         criaRecyclerHumano();
-        criaRecyclerApi();
 
     }
 
@@ -199,10 +198,10 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
         recyclerHeros.setLayoutManager(layoutManager);
         recyclerHeros.setItemAnimator(new DefaultItemAnimator());
-        AdapterPersonagens adapter = new AdapterPersonagens(personagensLista);
+        AdapterApi adapter = new AdapterApi(MainActivity.this, personagensApi);
         recyclerHeros.setAdapter(adapter);
 
-        recyclerHeros.addOnItemTouchListener(
+     /*   recyclerHeros.addOnItemTouchListener(
                 new RecyclerItemClickListener(
                         getApplicationContext(),
                         recyclerHeros,
@@ -223,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                 )
-        );
+        );*/
     }
 
     private void criaRecyclerVilao() {
@@ -378,46 +377,148 @@ public class MainActivity extends AppCompatActivity {
         recyclerHide.setItemAnimator(new DefaultItemAnimator());
         switch (tipo) {
             case 1:
-                personagensHidden = personagensLista;
+                personagensHidden = personagensApi;
+                AdapterApi adapterHero = new AdapterApi(MainActivity.this, personagensHidden);
+                recyclerHide.setAdapter(adapterHero);
+
+                recyclerHide.addOnItemTouchListener(
+                        new RecyclerItemClickListener(
+                                getApplicationContext(),
+                                recyclerHide,
+                                new RecyclerItemClickListener.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(View view, int position) {
+                                        Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                        i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                        startActivity(i);
+                                    }
+
+                                    @Override
+                                    public void onLongItemClick(View view, int position) {
+
+                                    }
+
+                                    @Override
+                                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    }
+                                }));
+
                 break;
             case 2:
                 personagensHidden = personagensLista2;
+                AdapterPersonagens adapterHero2 = new AdapterPersonagens(personagensHidden);
+                recyclerHide.setAdapter(adapterHero2);
+
+                recyclerHide.addOnItemTouchListener(
+                        new RecyclerItemClickListener(
+                                getApplicationContext(),
+                                recyclerHide,
+                                new RecyclerItemClickListener.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(View view, int position) {
+                                        Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                        i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                        startActivity(i);
+                                    }
+
+                                    @Override
+                                    public void onLongItemClick(View view, int position) {
+
+                                    }
+
+                                    @Override
+                                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    }
+                                }));
                 break;
             case 3:
                 personagensHidden = personagensLista3;
+                AdapterPersonagens adapterHero3 = new AdapterPersonagens(personagensHidden);
+                recyclerHide.setAdapter(adapterHero3);
+
+                recyclerHide.addOnItemTouchListener(
+                        new RecyclerItemClickListener(
+                                getApplicationContext(),
+                                recyclerHide,
+                                new RecyclerItemClickListener.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(View view, int position) {
+                                        Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                        i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                        startActivity(i);
+                                    }
+
+                                    @Override
+                                    public void onLongItemClick(View view, int position) {
+
+                                    }
+
+                                    @Override
+                                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    }
+                                }));
                 break;
             case 4:
                 personagensHidden = personagensLista4;
+                AdapterPersonagens adapterHero4 = new AdapterPersonagens(personagensHidden);
+                recyclerHide.setAdapter(adapterHero4);
+
+                recyclerHide.addOnItemTouchListener(
+                        new RecyclerItemClickListener(
+                                getApplicationContext(),
+                                recyclerHide,
+                                new RecyclerItemClickListener.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(View view, int position) {
+                                        Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                        i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                        startActivity(i);
+                                    }
+
+                                    @Override
+                                    public void onLongItemClick(View view, int position) {
+
+                                    }
+
+                                    @Override
+                                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    }
+                                }));
                 break;
             case 5:
                 personagensHidden = personagensLista5;
+                AdapterPersonagens adapterHero5 = new AdapterPersonagens(personagensHidden);
+                recyclerHide.setAdapter(adapterHero5);
+
+                recyclerHide.addOnItemTouchListener(
+                        new RecyclerItemClickListener(
+                                getApplicationContext(),
+                                recyclerHide,
+                                new RecyclerItemClickListener.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(View view, int position) {
+                                        Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                        i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                        startActivity(i);
+                                    }
+
+                                    @Override
+                                    public void onLongItemClick(View view, int position) {
+
+                                    }
+
+                                    @Override
+                                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    }
+                                }));
                 break;
         }
-        AdapterPersonagens adapterHero = new AdapterPersonagens(personagensHidden);
-        recyclerHide.setAdapter(adapterHero);
 
-        recyclerHide.addOnItemTouchListener(
-                new RecyclerItemClickListener(
-                        getApplicationContext(),
-                        recyclerHide,
-                        new RecyclerItemClickListener.OnItemClickListener() {
-                            @Override
-                            public void onItemClick(View view, int position) {
-                                Intent i = new Intent(MainActivity.this, Apresentacao.class);
-                                i.putExtra("teste", (Serializable) personagensHidden.get(position));
-                                startActivity(i);
-                            }
-
-                            @Override
-                            public void onLongItemClick(View view, int position) {
-
-                            }
-
-                            @Override
-                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                            }
-                        }));
 
     }
 }
