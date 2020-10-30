@@ -60,5 +60,4 @@ public class AdapterPersonagens extends RecyclerView.Adapter<AdapterPersonagens.
 
         }
     }
-
 }

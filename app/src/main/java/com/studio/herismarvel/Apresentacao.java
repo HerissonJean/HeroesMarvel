@@ -15,7 +15,7 @@ import com.studio.herismarvel.R;
 
 public class Apresentacao extends AppCompatActivity {
 
-    private TextView nome , personagemNome;
+    private TextView nome, personagemNome;
     private ImageView imageView;
 
 
@@ -23,15 +23,15 @@ public class Apresentacao extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.apresentacao2);
-   //     ActionBar actionBar = getSupportActionBar();
-    //    actionBar.hide();
+        //     ActionBar actionBar = getSupportActionBar();
+        //     actionBar.hide();
 
-//        findViewById(R.id.ic_apresentacao_retur).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                finish();
-//            }
-//        });
+        findViewById(R.id.ic_apresentacao_retur).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         nome = findViewById(R.id.text_apresentacao_nome);
         personagemNome = findViewById(R.id.text_apresentacao_personagem);

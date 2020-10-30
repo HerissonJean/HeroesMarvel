@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
-    android:elevation="@dimen/dp_8">
+    android:background="@android:color/black"
+    android:elevation="@dimen/dp_8"
+    android:orientation="vertical">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -14,17 +15,10 @@
             android:layout_height="wrap_content"
             android:elevation="@dimen/dp_8">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="700dp"
-                android:background="@drawable/background_gradient"
-                android:elevation="@dimen/dp_32">
-
-            </RelativeLayout>
-
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="700dp">
+                android:layout_height="700dp"
+                android:elevation="1dp">
 
                 <ImageView
                     android:id="@+id/image_apresentacao_principal"
@@ -32,16 +26,35 @@
                     android:layout_height="match_parent"
                     android:elevation="@dimen/dp_8"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/char_spider_man" />
+                    android:src="@drawable/char_duende" />
             </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:elevation="4dp"
+                android:orientation="horizontal">
+
+                <include layout="@layout/toolbar_apresentacao" />
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:background="@drawable/background_gradient"
+                android:elevation="2dp">
+
+            </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/dp_8"
-                android:layout_marginTop="500dp"
+                android:layout_marginTop="300dp"
                 android:layout_marginRight="@dimen/dp_8"
-                android:elevation="@dimen/dp_48"
+                android:elevation="3dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -97,13 +110,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/dp_48"
                     android:src="@drawable/ic_abilities" />
-
             </LinearLayout>
-
-
         </RelativeLayout>
-
     </ScrollView>
-
-
-</LinearLayout>
+</RelativeLayout>

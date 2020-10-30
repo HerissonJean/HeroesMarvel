@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Personagem> personagensLista5 = new ArrayList<>();
     ArrayList<Personagem> personagensHidden = new ArrayList<>();
     ArrayList<Personagem> personagensApi = new ArrayList<>();
-    private ImageView bt_hero, bt_villain, bt_antihero, bt_alienigena, bt_humano, bt_clearRecycler;
+    private ImageView bt_hero, bt_villain, bt_antihero, bt_alienigena, bt_humano, bt_clearRecycler, bt_magic;
     private Retrofit retrofit;
     public ImageView imageView;
     public TextView textView;
@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //configuração ActionBar
-     //   ActionBar bar = getSupportActionBar();
+        //   ActionBar bar = getSupportActionBar();
 
-       // bar.hide();
+        // bar.hide();
 
         recuperaDadosApi();
 
@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         bt_humano = findViewById(R.id.image_main_icHumano);
         bt_clearRecycler = findViewById(R.id.image_main_clear);
         bt_clearRecycler = findViewById(R.id.image_main_clear);
+        bt_magic = findViewById(R.id.image_main_magic);
 
         bt_clearRecycler.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +102,12 @@ public class MainActivity extends AppCompatActivity {
                 categoriaEscolhida(5);
             }
         });
+        bt_magic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                categoriaEscolhida(6);
+            }
+        });
 
         //apontando no xml rec/java
         recyclerHeros = findViewById(R.id.recycler_main_heroi);
@@ -109,7 +116,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerAlienigena = findViewById(R.id.recycler_main_alienigena);
         recyclerHumano = findViewById(R.id.recycler_main_Humano);
         recyclerHide = findViewById(R.id.recycler_main_hide);
-        recyclerOutros = findViewById(R.id.recycler_main_Api);
 
         Personagem aux = new Personagem();
         personagensLista = aux.classificacaoRecycler(1);
@@ -117,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
         personagensLista3 = aux.classificacaoRecycler(3);
         personagensLista4 = aux.classificacaoRecycler(4);
         personagensLista5 = aux.classificacaoRecycler(5);
+        personagensLista5 = aux.classificacaoRecycler(6);
 
         criaRecyclerApi();
         criaRecyclerHeros();
@@ -185,11 +192,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void criaRecyclerApi() {
 
+        RecyclerView recyclerView = new RecyclerView();
         LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
-        recyclerOutros.setLayoutManager(layoutManager);
-        recyclerOutros.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
         AdapterApi adapterApi = new AdapterApi(MainActivity.this, personagensApi);
-        recyclerOutros.setAdapter(adapterApi);
+        recyclerView.setAdapter(adapterApi);
 
     }
 
@@ -198,10 +206,10 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
         recyclerHeros.setLayoutManager(layoutManager);
         recyclerHeros.setItemAnimator(new DefaultItemAnimator());
-        AdapterApi adapter = new AdapterApi(MainActivity.this, personagensApi);
+        AdapterPersonagens adapter = new AdapterPersonagens(personagensLista);
         recyclerHeros.setAdapter(adapter);
 
-     /*   recyclerHeros.addOnItemTouchListener(
+        recyclerHeros.addOnItemTouchListener(
                 new RecyclerItemClickListener(
                         getApplicationContext(),
                         recyclerHeros,
@@ -222,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                 )
-        );*/
+        );
     }
 
     private void criaRecyclerVilao() {
@@ -493,6 +501,34 @@ public class MainActivity extends AppCompatActivity {
                 personagensHidden = personagensLista5;
                 AdapterPersonagens adapterHero5 = new AdapterPersonagens(personagensHidden);
                 recyclerHide.setAdapter(adapterHero5);
+
+                recyclerHide.addOnItemTouchListener(
+                        new RecyclerItemClickListener(
+                                getApplicationContext(),
+                                recyclerHide,
+                                new RecyclerItemClickListener.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(View view, int position) {
+                                        Intent i = new Intent(MainActivity.this, Apresentacao.class);
+                                        i.putExtra("teste", (Serializable) personagensHidden.get(position));
+                                        startActivity(i);
+                                    }
+
+                                    @Override
+                                    public void onLongItemClick(View view, int position) {
+
+                                    }
+
+                                    @Override
+                                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                                    }
+                                }));
+                break;
+            case 6:
+                personagensHidden = personagensApi;
+                AdapterApi adapter6 = new AdapterApi(MainActivity.this, personagensApi);
+                recyclerHide.setAdapter(adapter6);
 
                 recyclerHide.addOnItemTouchListener(
                         new RecyclerItemClickListener(
