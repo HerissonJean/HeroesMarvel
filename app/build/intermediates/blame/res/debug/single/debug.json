@@ -1,210 +1,210 @@
 [
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_magic_hat.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\magic_hat.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_justiceiro.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_justiceiro.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_dr_doom.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_dr_doom.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_category_hero.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_category_hero.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_howard_stark.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_howard_stark.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_category_human.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_category_human.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_category_antihero.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_category_antihero.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_logo.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_logo.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_category_alien.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_category_alien.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_spider_man.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_spider_man.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_category_villain.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_category_villain.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_pantera_negra.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_pantera_negra.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_char_homem_ferro.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/char_homem_ferro.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\gradient.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_caveira_vermelha.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_caveira_vermelha.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/gradient.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_clear_24.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\ic_baseline_clear_24.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\layout_apresentacao2.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\layout\\apresentacao2.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_ic_baseline_clear_24.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/ic_baseline_clear_24.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_duende_verde.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_duende_verde.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_abilities.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_abilities.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_abilities.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_abilities.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_ronan.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_ronan.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\layout_cardview_model.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\layout\\cardview_model.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_pesquisa.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_pesquisa.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_talos.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_talos.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_pantera_negra.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_pantera_negra.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_menu.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_menu.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_caracteristica.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_caracteristica.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_category_antihero.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_category_antihero.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_category_alien.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_category_alien.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_duende.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_duende.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_ic_apresentacao_retur.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/ic_apresentacao_retur.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_deadpool.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_deadpool.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_menu.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_menu.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_caracteristica.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_caracteristica.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_dr_doom.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_dr_doom.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_talos.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_talos.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_magic_hat.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/magic_hat.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_hogan.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_hogan.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_cardview_model.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/cardview_model.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_justiceiro.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_justiceiro.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_spider_man.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_spider_man.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_backgroud_circle.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/backgroud_circle.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_pesquisa.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_pesquisa.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_deadpool.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_deadpool.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_logo.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_logo.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_mary_jane.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_mary_jane.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_char_homem_ferro.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\char_homem_ferro.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_toolbar_apresentacao.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/toolbar_apresentacao.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_venom.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_venom.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_duende_verde.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_duende_verde.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_category_hero.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_category_hero.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_category_human.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\ic_category_human.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_caveira_vermelha.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_caveira_vermelha.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_thanos.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_thanos.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_apresentacao_retur.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\ic_apresentacao_retur.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_apresentacao2.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/apresentacao2.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\layout_cardview_model_api.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\layout\\cardview_model_api.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_background_gradient.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/background_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_gradient.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\background_gradient.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_thanos.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_thanos.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backgroud_circle.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable\\backgroud_circle.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_venom.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_venom.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_ronan.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_ronan.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_category_villain.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_category_villain.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_apresentacao.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\layout\\toolbar_apresentacao.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_howard_stark.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_howard_stark.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_duende.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_duende.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_cardview_model_api.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/cardview_model_api.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_char_mary_jane.png.flat",
-        "source": "C:\\Users\\heris\\AndroidStudioProjects\\HerisMarvel\\app\\src\\main\\res\\drawable-v24\\char_mary_jane.png"
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_hogan.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_hogan.png"
     }
 ]
