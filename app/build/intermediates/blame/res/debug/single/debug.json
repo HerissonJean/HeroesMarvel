@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_justiceiro.png.flat",
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/char_justiceiro.png"
     },
@@ -60,6 +64,10 @@
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_ic_abilities.png.flat",
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable-v24/ic_abilities.png"
     },
@@ -112,6 +120,10 @@
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/drawable/magic_hat.png"
     },
     {
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_cardview_model.xml.flat",
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/layout/cardview_model.xml"
     },
@@ -126,6 +138,10 @@
     {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/drawable-v24_char_deadpool.png.flat",
@@ -158,6 +174,10 @@
     {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/res/merged/debug/layout_apresentacao2.xml.flat",

@@ -77,14 +77,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yazo
 		ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:13:9-40
-activity#com.studio.herismarvel.Apresentacao
-ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:9-59
+activity#com.studio.herismarvel.Activity.Apresentacao
+ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:9-68
 	android:name
-		ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:19-47
-activity#com.studio.herismarvel.MainActivity
+		ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:19-56
+activity#com.studio.herismarvel.Activity.MainActivity
 ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:15:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN

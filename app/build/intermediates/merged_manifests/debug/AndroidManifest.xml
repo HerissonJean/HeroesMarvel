@@ -20,8 +20,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.studio.herismarvel.Apresentacao" />
-        <activity android:name="com.studio.herismarvel.MainActivity" >
+        <activity android:name="com.studio.herismarvel.Activity.Apresentacao" />
+        <activity android:name="com.studio.herismarvel.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

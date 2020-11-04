@@ -32,12 +32,12 @@
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
 22-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:13:9-40
-23        <activity android:name="com.studio.herismarvel.Apresentacao" />
-23-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:9-59
-23-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:19-47
-24        <activity android:name="com.studio.herismarvel.MainActivity" >
+23        <activity android:name="com.studio.herismarvel.Activity.Apresentacao" />
+23-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:9-68
+23-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:14:19-56
+24        <activity android:name="com.studio.herismarvel.Activity.MainActivity" >
 24-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:15:9-21:20
-24-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:15:19-47
+24-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:15:19-56
 25            <intent-filter>
 25-->/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/src/main/AndroidManifest.xml:16:13-20:29
 26                <action android:name="android.intent.action.MAIN" />

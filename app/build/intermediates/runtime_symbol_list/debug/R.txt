@@ -1239,7 +1239,8 @@ int layout support_simple_spinner_dropdown_item 0x7f0a002a
 int layout toolbar 0x7f0a002b
 int layout toolbar_apresentacao 0x7f0a002c
 int mipmap ic_launcher 0x7f0b0000
-int mipmap ic_launcher_round 0x7f0b0001
+int mipmap ic_launcher_foreground 0x7f0b0001
+int mipmap ic_launcher_round 0x7f0b0002
 int string Alienigena 0x7f0c0000
 int string AntiHero 0x7f0c0001
 int string Humano 0x7f0c0002

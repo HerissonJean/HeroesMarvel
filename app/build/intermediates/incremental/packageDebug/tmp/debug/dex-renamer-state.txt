@@ -1,4 +1,4 @@
-#Tue Nov 03 09:51:07 BRT 2020
+#Wed Nov 04 09:12:52 BRT 2020
 base.0=/Users/yazodeveloper/Desktop/Yazo/Help/HeroesMarvel/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
